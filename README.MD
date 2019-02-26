@@ -28,30 +28,28 @@ Nokt State is a Singleton State you can acces in your all project
 ## Example
 
 #### index.js
->`
-import State from 'nokt-state';
+>`import State from 'nokt-state';`
 
-import {example} from './example';
+>`import {example} from './example';`
 
-State.createInstance();
+>`State.createInstance();`
 
-State.getInstance().test = 'This is an example of Nokt State'
+>`State.getInstance().test = 'This is an example of Nokt State'`
 
-example();
-`
+>`example();`
+
 
 #### example.js
->`
-import State from 'nokt-state';
+>`import State from 'nokt-state';`
 
-function example(){
+>`function example(){`
+ 
+ >`console.log(State.getInstance().test)`
 
-  console.log(State.getInstance().test)
-  
-}
+>`}`
 
-module.exports.example = example;
-`
+>`module.exports.example = example;`
+
 
 #### return
 >This is an example of Nokt State
