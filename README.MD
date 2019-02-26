@@ -12,25 +12,25 @@ Nokt State is a Singleton State you can acces in all of your project
 
 ### Create your instance
  You need to create your instance for your first use
- 
+
   >`State.createInstance();`
- 
+
 ### Get your instance
  You can acces your instance in all your files by importing it in. Then you can get your instance by:
- 
+
   >`State.getInstance()`
- 
+
  ### If you want to delete your instance
- 
+
   >`State.deleteInstance()`
-  
-  
+
+
 ## Example
 
 #### index.js
->`import State from 'nokt-state';`
+>`var State =  require('nokt-state');`
 
->`import {example} from './example';`
+>`const {example} = require('./example');`
 
 >`State.createInstance();`
 
@@ -40,10 +40,10 @@ Nokt State is a Singleton State you can acces in all of your project
 
 
 #### example.js
->`import State from 'nokt-state';`
+>`var State =  require('nokt-state');`
 
 >`function example(){`
- 
+
  >`console.log(State.getInstance().test)`
 
 >`}`
@@ -51,5 +51,7 @@ Nokt State is a Singleton State you can acces in all of your project
 >`module.exports.example = example;`
 
 
-#### return
+#### Test
+
+>`>node index.js`
 >This is an example of Nokt State
