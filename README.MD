@@ -54,4 +54,5 @@ Nokt State is a Singleton State you can acces in all of your project
 #### Test
 
 >`>node index.js`
+
 >This is an example of Nokt State
