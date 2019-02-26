@@ -1,6 +1,6 @@
 # Nokt State
 
-Nokt State is a Singleton State you can acces in your all project
+Nokt State is a Singleton State you can acces in all of your project
 
 ## Instalation
   >`>npm install nokt-state`
@@ -16,7 +16,7 @@ Nokt State is a Singleton State you can acces in your all project
   >`State.createInstance();`
  
 ### Get your instance
- You can acces your instance in all your files by import it in. Then you can get your instance by:
+ You can acces your instance in all your files by importing it in. Then you can get your instance by:
  
   >`State.getInstance()`
  
